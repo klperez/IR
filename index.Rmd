@@ -199,7 +199,7 @@ f(x) = \frac{1}{\sqrt{2\pi\sigma^2}}e^{-(x-\mu)^2/2\sigma^2}
 $$
 
 
-```{r, echo=FALSE, fig.align='center', fig.height= 4, fig.width= 8}
+```{r, echo=FALSE, fig.align='center', fig.height= 4, fig.width= 8, message=FALSE, warning=FALSE}
 
 require(ggplot2)
 x <- seq(-4, 4, 0.1)
